@@ -18,7 +18,7 @@ import { register } from "./controllers/auth.js";
 import { verifyToken } from "./middleware/auth.js";
 // import User from "./models/User.js";
 // import { users } from "./data/index.js";
-import { Server } from "socket.io";
+// import { Server } from "socket.io";
 import { createServer } from "http";
 // ERROR MANAGEMENT
 import * as Sentry from '@sentry/node';
@@ -119,6 +119,9 @@ const upload = multer({ storage });
 // app.post("/posts", verifyToken, upload.single("picture"), createPost);
 
 /* ROUTES */
+app.get("/health/", (req,res)=>{
+ res.status(200).send("ok")
+});
 app.use("/api/", apiRoutes);
 
   
