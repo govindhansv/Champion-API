@@ -1,0 +1,23 @@
+npm install --save @sentry/node@latest @sentry/tracing@latest bcrypt@latest body-parser@latest cors@latest dotenv@latest express@latest express-handlebars@latest firebase-admin@latest geolib@latest gridfs-stream@latest hbs@latest helmet@latest jsonwebtoken@latest luxon@latest moment@latest mongoose@latest morgan@latest multer@latest multer-gridfs-storage@latest socket.io@latest
+
+"@sentry/node": "^7.45.0",
+    "@sentry/tracing": "^7.45.0",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.7",
+    "firebase-admin": "^11.5.0",
+    "geolib": "^3.3.3",
+    "gridfs-stream": "^1.1.1",
+    "hbs": "^4.2.0",
+    "helmet": "^6.0.1",
+    "jsonwebtoken": "^9.0.0",
+    "luxon": "^3.3.0",
+    "moment": "^2.29.4",
+    "mongoose": "^6.8.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "multer-gridfs-storage": "^5.0.2",
+    "socket.io": "^4.6.1"
