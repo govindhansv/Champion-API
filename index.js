@@ -47,11 +47,11 @@ dotenv.config();
 const app = express();
 const httpServer = createServer(app);
 
-const io = new Server(httpServer, {
-  cors: {
-    origin: '*',
-  }
-});
+// const io = new Server(httpServer, {
+//   cors: {
+//     origin: '*',
+//   }
+// });
 
 // SOCKET IO
 // io.on("connection", (socket) => {
